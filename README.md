@@ -1,0 +1,2 @@
+# Genshin_Artifactor_bot_js
+Genshin_ArtifactorをDiscord.jsでホストするためのコードです。
