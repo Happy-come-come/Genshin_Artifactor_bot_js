@@ -1,0 +1,32 @@
+{
+  "name": "Artifactor_discordjs_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@discordjs/voice": "^0.11.0",
+    "bufferutil": "^4.0.7",
+    "child_process": "^1.0.2",
+    "discord.js": "^14.5.0",
+    "dotenv": "^16.0.2",
+    "enka-network-api": "^2.1.2",
+    "erlpack": "github:discord/erlpack",
+    "fetch": "^1.1.0",
+    "fs": "^0.0.1-security",
+    "node-cron": "^3.0.2",
+    "node-fetch": "^3.3.0",
+    "request": "^2.88.2",
+    "utf-8-validate": "^5.0.10",
+    "uuid": "^9.0.0",
+    "zlib-sync": "^0.1.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "18.x"
+  }
+}
