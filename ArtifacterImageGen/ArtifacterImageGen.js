@@ -173,9 +173,7 @@ async function ArtifacterJsonGen(interaction,uid,is_remember = false,is_dont_use
 	var User_Data_json = [{"uid": "","tmp_uid": Number(uid),selected_character: 0}];;
 	if(fs.existsSync(json_path_name)){
 		var saved_user_uid = JSON.parse(await fs.readFileSync(json_path_name,'utf-8'));
-		if(is_dont_use){
-			User_Data_json = [{"uid": Number(saved_user_uid[0].uid),"tmp_uid": Number(uid),selected_character: 0}];
-		}
+		User_Data_json = [{"uid": Number(saved_user_uid[0].uid),"tmp_uid": Number(uid),selected_character: 0}];
 	}else{
 		if(is_dont_use){
 			User_Data_json = [{"uid": "","tmp_uid": Number(uid),selected_character: 0}];
