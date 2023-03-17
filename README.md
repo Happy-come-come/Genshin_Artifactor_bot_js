@@ -26,4 +26,5 @@ node asset_update.js
 で画像を取ってくることができると思います。
 # スペシャルサンクス
 [[FuroBath](https://github.com/FuroBath) / **[ArtifacterImageGen](https://github.com/FuroBath/ArtifacterImageGen)**] 画像生成部分
+
 [[yuko1101](https://github.com/yuko1101) / **[enka-network-api](https://github.com/yuko1101/enka-network-api)**] データ取得部分
